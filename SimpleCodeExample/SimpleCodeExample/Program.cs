@@ -40,9 +40,9 @@ namespace SimpleCodeExample
 
             public static List<OrderTable> GetTodaysOrders()
             {
-                // This is the generic to access 
+                // This is the generic way to access 
                 // a database. Usually this code would be placed in a tier by itself.
-                // ( no ORM, mvc etc for example )
+                // ( ORM, mvc etc for example )
 
                 List<OrderTable> lstCurrentOrders = new List<OrderTable>();
                 using (SqlConnection conn = new SqlConnection("somedb;password;"))
