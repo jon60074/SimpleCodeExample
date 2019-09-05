@@ -16,7 +16,7 @@ namespace SimpleCodeExample
             {
                 // Simple code example. ( j. phillips ) - This code has not been tested. I banged it out quickly for an example.
 
-                // No ORM or tiered architecture ( data layer , mvc ) etc. 
+                // No ORM or tiered architecture ( data layer , mvc ) etc. " Manual Code " connections etc makes it easier to browse.
                 // 
                 // This sample takes rows from a table at night ( service app ) 
                 // changes processed rows with todays date to TRUE.
