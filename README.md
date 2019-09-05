@@ -3,7 +3,7 @@ A simple console app database example ( Windows service ) w/o an ORM, mvc, n-tie
 to save reviewer from clicking through project files etc.
 
 
-* Usually ProcessOrders, GetTodaysOrders would be in a data layer, Web Service with or without ORM to 
+* Usually ProcessOrders, GetTodaysOrders would be in a data layer, Web Service or REST with or without ORM to 
   support scalability and maintainability.
 
 * Code ( Program.cs ) SimpleProgramExample\SimpleProgramExample\Program.cs
