@@ -14,7 +14,7 @@ namespace SimpleCodeExample
         
             static void Main(string[] args)
             {
-                // Simple code example. ( j. phillips ) - This code has not been compiled. I banged it out quickly for an example.
+                // Simple code example. ( j. phillips ) - This code has not been tested. I banged it out quickly for an example.
 
                 // No ORM or tiered architecture ( data layer , mvc ) etc. 
                 // 
