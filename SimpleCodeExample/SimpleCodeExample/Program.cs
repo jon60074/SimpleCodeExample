@@ -14,7 +14,7 @@ namespace SimpleCodeExample
         
             static void Main(string[] args)
             {
-                // Simple code example. ( j. phillips )
+                // Simple code example. ( j. phillips ) - This code has not been compiled. I banged it out quickly for an example.
 
                 // No ORM or tiered architecture ( data layer , mvc ) etc. 
                 // 
@@ -29,7 +29,7 @@ namespace SimpleCodeExample
                 lstOrders = GetTodaysOrders();
                 foreach (OrderTable ot in lstOrders)
                 {
-                    if (ot.OrderDate.Equals(DateTime.Now))
+                    if (ot.OrderDate.Equals(DateTime.Now)) // <-- DateTime Issue ( timestamp ).
                     {
                         ProcessOrders(ot);
                     }
