@@ -12,7 +12,7 @@ Demonstrates ( very basic ):
 * Encapsulation ( talks about )
 * Forcing object destruction ( garbage collecting )
 * Readability ( A child could read this code )
-* Readability, Scalability and Maintainability
+* Readability, Scalability and Maintainability ( execution time )  <-- #1 PRIORITY 
 * Parameterized Queries ( no ORM to save reviewer from clicking etc )
 * Executes quickly 
 * Generics
