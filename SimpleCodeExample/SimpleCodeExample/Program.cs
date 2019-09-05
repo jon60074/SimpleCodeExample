@@ -76,7 +76,7 @@ namespace SimpleCodeExample
                 // More order processing here //
 
                 // Update Order status ( Usually this would be OrderStatus field but for readability )
-                using (SqlConnection conn = new SqlConnection("somedb;password;"))
+                using (SqlConnection conn = new SqlConnection("somedb;password;")) // <-- Using Stmt SCOPE ..Connection to garbage.
                 {
                     SqlCommand cmd = new SqlCommand("Update OrderTbl Set Processed=@parmProcessed where OrderID=@parmOrderID");
                     cmd.Parameters.Add("@parmProcessed", SqlDbType.Bit).Value = true;
