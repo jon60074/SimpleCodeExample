@@ -14,7 +14,7 @@ Demonstrates ( very basic ):
 * Readability ( A child could read this code )
 * Readability, Scalability and Maintainability
 * Parameterized Queries ( no ORM to save reviewer from clicking etc )
-* Excutes quickly 
+* Executes quickly 
 * Generics
 * Data Classes
 
